@@ -1,0 +1,58 @@
+# Core Framework
+Django==5.0.1
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-filter==23.5
+
+# Authentication & Security
+djangorestframework-simplejwt==5.3.1
+cryptography==42.0.0
+solders==0.20.0
+solana==0.32.0
+PyNaCl==1.5.0
+base58==2.1.1
+
+# Database
+psycopg2-binary==2.9.9
+dj-database-url==2.1.0
+
+# Async & Task Queue
+celery==5.3.6
+redis==5.0.1
+django-celery-beat==2.5.0
+django-celery-results==2.5.1
+
+# HTTP & API
+httpx==0.26.0
+requests==2.31.0
+websockets==12.0
+
+# GPU Compute & ML (These are large - install only what you need)
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.37.0
+diffusers==0.25.1
+accelerate==0.26.1
+Pillow==10.2.0
+numpy==1.26.3
+scipy==1.12.0
+
+# Monitoring & Logging
+sentry-sdk==1.40.0
+python-json-logger==2.0.7
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Production Server
+gunicorn==21.2.0
+
+# Development
+pytest==7.4.4
+pytest-django==4.7.0
+pytest-asyncio==0.23.3
+black==24.1.1
+flake8==7.0.0
+ipython==8.21.0
